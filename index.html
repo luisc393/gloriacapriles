@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gloria Lizarraga de Capriles</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Gloria Lizarraga de Capriles (1944-2021): hija, hermana, madre, líder social y vecinal, primera alcaldesa electa de Baruta, abogada y abuela. También conocida como Gloria Lizárraga de Capriles.">
+<meta property="og:title" content="Gloria Lizarraga de Capriles (1944-2021)">
+<meta property="og:description" content="Primera alcaldesa de Baruta. Una vida de servicio, fe y familia.">
+<meta property="og:image" content="img/gloria-portada-1200.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Jost:wght@400;500&display=swap">
+<style>
+/* Layout: una sola columna de lectura (65ch) que se abre a imágenes a sangre;
+   la orquídea Flor de Mayo (Cattleya mossiae, florece en mayo, el mes en que nació) da el acento. */
+:root{
+  --paper:#FBF9F7;      /* papel claro, con un leve tinte rosado */
+  --paper-2:#F2EEEB;    /* bandas y fondos de tarjeta */
+  --ink:#1F2723;        /* tinta verde-negra del jardín */
+  --ink-soft:#56605B;   /* texto secundario */
+  --line:#DCD5D2;       /* filetes */
+  --orchid:#8A3A73;     /* acento: la orquídea */
+  --leaf:#2E4A3B;       /* verde hoja, para bandas */
+  --on-leaf:#F3EEF1;
+  --display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --body:"Source Serif 4","Iowan Old Style",Georgia,serif;
+  --label:"Jost","Futura","Avenir Next","Segoe UI",sans-serif;
+  --measure:65ch;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#121714;--paper-2:#1A211D;--ink:#ECE7EA;--ink-soft:#A9B0AC;--line:#2E3833;
+  --orchid:#D9A2CB;--leaf:#1D2E25;--on-leaf:#ECE7EA;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#121714;--paper-2:#1A211D;--ink:#ECE7EA;--ink-soft:#A9B0AC;--line:#2E3833;
+  --orchid:#D9A2CB;--leaf:#1D2E25;--on-leaf:#ECE7EA;color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.125rem/1.7 var(--body);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--orchid);text-underline-offset:.18em;text-decoration-thickness:1px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--orchid);outline-offset:3px;border-radius:2px}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.col{max-width:var(--measure);margin-inline:auto}
+.wide{max-width:1180px;margin-inline:auto}
+h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0;line-height:1.1}
+p{margin:0}
+.label{font:500 .78rem/1.3 var(--label);letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft)}
+
+/* Navegación */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:20;background:var(--paper)}
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:15;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav .wide{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:56px}
+.nav .mark{font:400 1.05rem/1 var(--display);color:var(--ink);text-decoration:none;white-space:nowrap}
+.nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;overflow-x:auto;scrollbar-width:none}
+.nav ul::-webkit-scrollbar{display:none}
+.nav ul a{font:500 .74rem/1 var(--label);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);text-decoration:none;white-space:nowrap;padding-block:6px}
+.nav ul a:hover{color:var(--orchid)}
+@media (max-width:760px){.nav .mark{display:none}.nav .wide{justify-content:flex-start}}
+
+/* Portada */
+.hero{position:relative}
+.hero picture img{width:100%;height:auto;max-height:82vh;object-fit:cover;object-position:58% 35%}
+.hero-text{padding-block:48px 8px;text-align:center}
+.hero-text .label{margin-bottom:20px}
+.hero h1{font-size:clamp(2.6rem,7vw,5.4rem);letter-spacing:-.01em}
+.hero h1 em{font-style:italic;color:var(--orchid)}
+.dates{margin-top:18px;font:400 1.05rem/1.5 var(--body);color:var(--ink-soft);font-variant-numeric:lining-nums}
+.roles{list-style:none;padding:0;margin:40px auto 0;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 0;max-width:880px;font:italic 400 clamp(1.15rem,2.6vw,1.55rem)/1.5 var(--display);color:var(--ink)}
+.roles li{display:flex;align-items:center}
+.roles li+li::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--orchid);margin-inline:14px;opacity:.8}
+
+.epigraph{padding-block:64px 24px;text-align:center}
+.epigraph blockquote{margin:0;font:400 clamp(1.4rem,3.2vw,2.1rem)/1.35 var(--display);text-wrap:balance}
+.epigraph cite{display:block;margin-top:16px;font:500 .78rem/1.4 var(--label);letter-spacing:.14em;text-transform:uppercase;font-style:normal;color:var(--ink-soft)}
+
+/* Secciones */
+section{scroll-margin-top:72px}
+.sec{padding-block:88px 24px}
+.sec-head{text-align:center;display:grid;gap:14px;margin-bottom:56px}
+.sec-head h2{font-size:clamp(2rem,4.6vw,3.2rem)}
+.sec-head p{color:var(--ink-soft);max-width:52ch;margin-inline:auto}
+.rule{width:56px;height:1px;background:var(--orchid);margin:0 auto}
+
+/* Su vida: capítulos por rol */
+.chapter{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:56px;align-items:center;padding-block:40px}
+.chapter:nth-of-type(even){grid-template-columns:minmax(0,6fr) minmax(0,5fr)}
+.chapter:nth-of-type(even) figure{order:2}
+.chapter figure{margin:0}
+.chapter figure img{width:100%;height:auto;filter:saturate(.92)}
+.chapter figcaption{margin-top:10px;font:400 .85rem/1.45 var(--label);color:var(--ink-soft)}
+.chapter .text{display:grid;gap:16px;min-width:0}
+.chapter .role{font:500 .78rem/1 var(--label);letter-spacing:.18em;text-transform:uppercase;color:var(--orchid)}
+.chapter h3{font-size:clamp(1.7rem,3.4vw,2.4rem)}
+.chapter .years{font:400 .95rem/1 var(--label);color:var(--ink-soft);letter-spacing:.04em;font-variant-numeric:lining-nums tabular-nums}
+.chapter p+p{margin-top:0}
+.chapter .q{font-style:italic;color:var(--ink);border-left:1px solid var(--orchid);padding-left:16px}
+.chapter.textonly{grid-template-columns:minmax(0,1fr)!important;max-width:var(--measure);margin-inline:auto}
+@media (max-width:820px){
+  .chapter,.chapter:nth-of-type(even){grid-template-columns:minmax(0,1fr);gap:24px}
+  .chapter:nth-of-type(even) figure{order:0}
+}
+.portrait img{max-width:420px;margin-inline:auto}
+
+/* Banda: su obra */
+.band{background:var(--leaf);color:var(--on-leaf);margin-top:72px}
+.band .sec-head p,.band .label{color:color-mix(in srgb,var(--on-leaf) 72%,transparent)}
+.band .rule{background:var(--on-leaf);opacity:.6}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid color-mix(in srgb,var(--on-leaf) 22%,transparent)}
+.fact{padding:32px 28px 36px;border-bottom:1px solid color-mix(in srgb,var(--on-leaf) 22%,transparent);display:grid;gap:10px;align-content:start}
+.fact:not(:nth-child(3n+1)){border-left:1px solid color-mix(in srgb,var(--on-leaf) 22%,transparent)}
+.fact b{font:400 clamp(2.4rem,4.6vw,3.4rem)/1 var(--display);font-variant-numeric:lining-nums}
+.fact span{font:400 1rem/1.5 var(--body);color:color-mix(in srgb,var(--on-leaf) 86%,transparent)}
+@media (max-width:820px){.facts{grid-template-columns:minmax(0,1fr)}.fact:not(:nth-child(3n+1)){border-left:0}}
+.band-note{padding-block:28px 88px;font-size:.98rem;color:color-mix(in srgb,var(--on-leaf) 78%,transparent)}
+
+/* Línea de tiempo */
+.timeline{list-style:none;margin:0;padding:0;position:relative}
+.timeline::before{content:"";position:absolute;left:7.5rem;top:6px;bottom:6px;width:1px;background:var(--line)}
+.timeline li{display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:0 28px;padding-block:12px;position:relative}
+.timeline time{font:500 .86rem/1.6 var(--label);letter-spacing:.06em;color:var(--ink-soft);text-align:right;padding-right:22px;font-variant-numeric:lining-nums tabular-nums}
+.timeline li::after{content:"";position:absolute;left:calc(7.5rem - 4px);top:21px;width:9px;height:9px;border-radius:50%;background:var(--paper);border:1px solid var(--orchid)}
+.timeline li.key::after{background:var(--orchid)}
+.timeline li.key p{font-weight:600}
+.timeline .era{font:italic 400 1.35rem/1.3 var(--display);color:var(--orchid);padding-top:28px}
+.timeline .era::after{display:none}
+@media (max-width:560px){
+  .timeline::before{left:5px}
+  .timeline li{grid-template-columns:minmax(0,1fr);padding-left:26px}
+  .timeline li::after{left:1px;top:19px}
+  .timeline time{text-align:left;padding:0}
+}
+
+/* En sus palabras */
+.words{display:grid;gap:56px}
+.word blockquote{margin:0;font:400 clamp(1.3rem,2.8vw,1.8rem)/1.4 var(--display);text-wrap:pretty}
+.word blockquote::before{content:"«";color:var(--orchid)}
+.word blockquote::after{content:"»";color:var(--orchid)}
+.word p{margin-top:12px;font:400 .9rem/1.5 var(--label);color:var(--ink-soft)}
+
+/* Testimonios */
+.testis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 56px}
+.testi{padding-block:28px;border-top:1px solid var(--line);display:grid;gap:12px;align-content:start}
+.testi blockquote{margin:0;font-style:italic}
+.testi footer{font:500 .8rem/1.4 var(--label);letter-spacing:.08em;color:var(--ink-soft)}
+.testi footer strong{color:var(--ink);font-weight:500;letter-spacing:.04em}
+@media (max-width:820px){.testis{grid-template-columns:minmax(0,1fr)}}
+
+/* Hemeroteca */
+.press{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:36px 28px}
+.clip{margin:0;display:grid;gap:10px;align-content:start}
+.clip button{all:unset;cursor:zoom-in;display:block;background:var(--paper-2);aspect-ratio:4/5;overflow:hidden;border:1px solid var(--line)}
+.clip button:focus-visible{outline:2px solid var(--orchid);outline-offset:3px}
+.clip img{width:100%;height:100%;object-fit:cover;object-position:top;transition:transform .5s ease}
+.clip button:hover img{transform:scale(1.03)}
+.clip .when{font:500 .74rem/1.2 var(--label);letter-spacing:.14em;text-transform:uppercase;color:var(--orchid)}
+.clip .what{font:400 1rem/1.4 var(--body)}
+.clip .src{font:400 .85rem/1.4 var(--label);color:var(--ink-soft)}
+.links{margin-top:64px;border-top:1px solid var(--line)}
+.links h3{font-size:1.5rem;padding-block:28px 8px}
+.links ul{list-style:none;margin:0;padding:0}
+.links li{display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:20px;padding-block:14px;border-bottom:1px solid var(--line)}
+.links li span{font:500 .8rem/1.6 var(--label);letter-spacing:.06em;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+@media (max-width:560px){.links li{grid-template-columns:minmax(0,1fr);gap:2px}}
+
+dialog{border:0;padding:0;background:transparent;max-width:min(94vw,1000px);max-height:92vh}
+dialog::backdrop{background:rgba(12,16,14,.86)}
+dialog img{max-height:84vh;width:auto;margin-inline:auto;background:#fff}
+dialog p{color:#ECE7EA;font:400 .9rem/1.4 var(--label);text-align:center;margin-top:10px}
+dialog button{position:absolute;top:8px;right:8px;width:40px;height:40px;border-radius:50%;border:0;background:rgba(0,0,0,.55);color:#fff;font:400 1.4rem/1 var(--label);cursor:pointer}
+
+/* Cierre */
+.closing{padding-block:96px 72px;text-align:center}
+.closing p.big{font:italic 400 clamp(1.5rem,3.4vw,2.3rem)/1.35 var(--display);max-width:30ch;margin-inline:auto;text-wrap:balance}
+.closing p.small{margin-top:20px;color:var(--ink-soft)}
+.foot{border-top:1px solid var(--line);padding-block:28px 36px}
+.foot .wide{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font:400 .85rem/1.5 var(--label);color:var(--ink-soft)}
+</style>
+</head>
+<body>
+
+<nav class="nav wrap" aria-label="Secciones">
+  <div class="wide">
+    <a class="mark" href="#inicio">Gloria Lizarraga de Capriles</a>
+    <ul>
+      <li><a href="#su-vida">Su vida</a></li>
+      <li><a href="#su-obra">Su obra</a></li>
+      <li><a href="#cronologia">Cronología</a></li>
+      <li><a href="#sus-palabras">Sus palabras</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#hemeroteca">Hemeroteca</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="inicio">
+  <picture>
+    <source media="(max-width:640px)" srcset="img/gloria-portada-movil.jpg">
+    <source media="(max-width:1300px)" srcset="img/gloria-portada-1200.jpg">
+    <img src="img/gloria-portada.jpg" width="2400" height="1340" alt="Gloria Lizarraga de Capriles, sonriente, sentada en un banco de jardín junto a una orquídea en flor">
+  </picture>
+  <div class="hero-text wrap">
+    <p class="label">In memoriam</p>
+    <h1>Gloria <em>Lizarraga</em> de&nbsp;Capriles</h1>
+    <p class="dates">Valencia, 2 de mayo de 1944 &nbsp;·&nbsp; Caracas, 31 de marzo de 2021</p>
+    <ul class="roles" aria-label="Quién fue">
+      <li>hija</li><li>hermana</li><li>amiga</li><li>esposa</li><li>madre</li><li>líder social y vecinal</li><li>alcaldesa</li><li>abogada</li><li>abuela</li>
+    </ul>
+  </div>
+</header>
+
+<div class="epigraph wrap">
+  <div class="col">
+    <blockquote>«Cuando hay mística y amor a lo que se hace, todo sale.»</blockquote>
+    <cite>Gloria Lizarraga de Capriles</cite>
+  </div>
+</div>
+
+<main>
+
+<section id="su-vida" class="sec wrap">
+  <div class="sec-head">
+    <p class="label">Su vida</p>
+    <h2>Una vida en muchas vidas</h2>
+    <div class="rule"></div>
+    <p>Fue primera alcaldesa de Baruta, pero quienes la quisieron la recuerdan en todos sus papeles a la vez.</p>
+  </div>
+
+  <div class="wide">
+
+    <article class="chapter">
+      <figure class="portrait">
+        <img src="img/nina-con-magaly.jpg" width="399" height="616" loading="lazy" alt="Gloria niña junto a su hermana mayor Magaly">
+        <figcaption>La pequeña Gloria con Magaly, su hermana mayor.</figcaption>
+      </figure>
+      <div class="text">
+        <p class="role">Hija y hermana</p>
+        <h3>Valencia, la fe y la casa grande</h3>
+        <p class="years">1944 · 1962</p>
+        <p>Nació en Valencia el 2 de mayo de 1944, la menor de los seis hijos de Carlos Lizarraga Zuloaga y Magdalena Calzadilla. La bautizaron en la Catedral como Gloria María Auxiliadora. Sus hermanos fueron Carlos Eduardo, Manuel, Magaly, Jorge y Gustavo.</p>
+        <p>A los doce años fue con dos amigas a inscribirse en Copei. La edad mínima era catorce; insistió hasta que la aceptaron. A los quince ya era catequista. Terminó el bachillerato en el San José de Tarbes, en Caracas.</p>
+      </div>
+    </article>
+
+    <article class="chapter">
+      <figure>
+        <img src="img/boda.jpg" width="640" height="616" loading="lazy" alt="Gloria y Luis Felipe Capriles Ayala el día de su boda">
+        <figcaption>Con Luis Felipe Capriles Ayala el día de su boda, 1962.</figcaption>
+      </figure>
+      <div class="text">
+        <p class="role">Esposa y madre</p>
+        <h3>Siete hijos y una imprenta</h3>
+        <p class="years">1962 · 1987</p>
+        <p>El 21 de julio de 1962, con dieciocho años recién cumplidos, se casó con Luis Felipe Capriles Ayala, porteño de San Esteban. Dos años después perdió a su madre, y nueve meses más tarde a su padre. Siguió adelante.</p>
+        <p>Tuvieron siete hijos: Gloria Inés, Luis Felipe, Carlos Luis, Magdalena, Jorge Luis, Adelaida y Andrea. En 1977 fundaron juntos la imprenta Altolitho, que hoy dirigen sus hijos. Nunca faltó a un partido de fútbol: si no estaba ella, estaba él.</p>
+      </div>
+    </article>
+
+    <article class="chapter">
+      <figure>
+        <img src="img/recorriendo-barrios.jpg" width="1100" height="736" loading="lazy" alt="Gloria Capriles recorriendo a pie un sector popular de Baruta, acompañada de vecinos">
+        <figcaption>Recorriendo los sectores populares de Baruta.</figcaption>
+      </figure>
+      <div class="text">
+        <p class="role">Amiga y líder social y vecinal</p>
+        <h3>La barrióloga</h3>
+        <p class="years">1980 · 1989</p>
+        <p>Fundó y presidió el Voluntariado Nacional de Barrios, fue diputada a la Asamblea Legislativa de Miranda entre 1982 y 1987 y dirigió Copei en Baruta. Entraba a Santa Cruz del Este a las diez de la noche, y la gente la cuidaba.</p>
+        <p class="q">«Aquí en Baruta siempre me echaban broma y me decían que yo era una barrióloga, porque siempre he dicho que los alcaldes, los gobernadores y los presidentes deben trabajar esencialmente por la gente más necesitada.»</p>
+      </div>
+    </article>
+
+    <article class="chapter">
+      <figure class="portrait">
+        <img src="img/toma-de-posesion.jpg" width="718" height="1080" loading="lazy" alt="Gloria Capriles vestida de rojo, con su pequeña hija Andrea, el día de su toma de posesión">
+        <figcaption>Con su hija Andrea y sus colaboradoras en la Universidad Simón Bolívar, el día de la toma de posesión, enero de 1990.</figcaption>
+      </figure>
+      <div class="text">
+        <p class="role">Alcaldesa</p>
+        <h3>La primera de Baruta</h3>
+        <p class="years">1989 · 1999</p>
+        <p>El 3 de diciembre de 1989, en las primeras elecciones directas de alcaldes de Venezuela, Baruta la eligió. La alcaldía empezó en un local de Plaza Las Américas con sillas alquiladas y cajas como archivos. Ni ella ni sus funcionarios cobraron hasta que hubo ingresos.</p>
+        <p>El 2 de mayo de 1990, el día que cumplía 46 años, creó la primera policía municipal del país. Perdió la reelección en 1992. Ganó en tribunales la defensa de su honor en 1995, y en 1998 Baruta y El Hatillo la eligieron diputada al Congreso de la República.</p>
+      </div>
+    </article>
+
+    <article class="chapter textonly">
+      <div class="text">
+        <p class="role">Abogada</p>
+        <h3>El título que esperó cuarenta años</h3>
+        <p class="years">Años ochenta · 2003</p>
+        <p>Cuando su hija mayor decidió estudiar Derecho, ella dijo «yo voy contigo». Cursaron juntas tres años en la Universidad Santa María, hasta que llegó Andrea y tuvo que dejarlo. Después de enviudar volvió a las aulas y se graduó de abogada a los 59 años. Siempre le dijo a sus hijas que la mujer necesita una vida profesional que la haga sentir completa.</p>
+      </div>
+    </article>
+
+    <article class="chapter">
+      <figure>
+        <img src="img/con-sus-nietos.jpg" width="809" height="664" loading="lazy" alt="Gloria Capriles rodeada de sus nietos en una noche de fiesta familiar">
+        <figcaption>Con sus nietos.</figcaption>
+      </figure>
+      <div class="text">
+        <p class="role">Abuela</p>
+        <h3>El spa de los lunes, miércoles y viernes</h3>
+        <p class="years">1999 · 2021</p>
+        <p>Enterró a su hijo Jorge Luis en 1999 y a su esposo en 2002. Desde 2014 se dializó tres veces por semana; a los nietos les decía que estaba «en el spa». Allí rezaba el rosario y consiguió medicinas e insumos para los noventa pacientes de su unidad.</p>
+        <p>Dejó veintidós nietos, a quienes prestaba a Agatha Christie y recomendaba leer historia. Murió el Miércoles Santo, 31 de marzo de 2021. A su despedida llegaron baruteños humildes a devolverle el cariño.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="su-obra" class="band">
+  <div class="sec wrap">
+    <div class="sec-head">
+      <p class="label">Su obra en Baruta</p>
+      <h2>Un municipio hecho desde cero</h2>
+      <div class="rule"></div>
+      <p>Lo que dejó al entregar la alcaldía el 4 de enero de 1993, según su informe de gestión 1990-1992.</p>
+    </div>
+    <div class="wide facts">
+      <div class="fact"><b>1.ª</b><span>Policía municipal de Venezuela, creada por el Decreto 004 del 2 de mayo de 1990.</span></div>
+      <div class="fact"><b>12 días</b><span>Tardó en crear PARVECI, la oficina de participación vecinal, tras asumir el cargo.</span></div>
+      <div class="fact"><b>9</b><span>Ambulatorios municipales gratuitos, remodelados y dotados con ambulancias.</span></div>
+      <div class="fact"><b>14</b><span>Centros de atención a la tercera edad, que atendían a 5.000 adultos mayores.</span></div>
+      <div class="fact"><b>401</b><span>Becas estudiantiles, de preescolar a universidad.</span></div>
+      <div class="fact"><b>6.218</b><span>Atletas de 61 asociaciones en los Juegos Deportivos Vecinales.</span></div>
+    </div>
+    <p class="wide band-note">Llevó agua, luz y canchas a El Rosario, Las Minas, Santa Cruz del Este, Piedras Azules y la zona rural; levantó el Mercado Municipal y el Boulevard Ricaurte, y apoyó los mercados a cielo abierto. En 1998 volvió a ganar en la circunscripción de Baruta y El Hatillo, con el 37,94 % de los votos.</p>
+  </div>
+</section>
+
+<section id="cronologia" class="sec wrap">
+  <div class="sec-head">
+    <p class="label">Cronología</p>
+    <h2>Setenta y seis años</h2>
+    <div class="rule"></div>
+  </div>
+  <ol class="timeline col">
+    <li class="era"><time></time><p>Valencia</p></li>
+    <li class="key"><time>2 may 1944</time><p>Nace en Valencia, Carabobo.</p></li>
+    <li><time>1956</time><p>Diploma de honor del Colegio Sagrada Familia. Entra a Copei con doce años.</p></li>
+    <li><time>30 jun 1959</time><p>Recibe su credencial de catequista.</p></li>
+    <li class="era"><time></time><p>La familia</p></li>
+    <li class="key"><time>21 jul 1962</time><p>Se casa con Luis Felipe Capriles Ayala.</p></li>
+    <li><time>1963 – 1987</time><p>Nacen sus siete hijos, de Gloria Inés a Andrea.</p></li>
+    <li><time>1964 – 1965</time><p>Mueren su madre y su padre, con nueve meses de diferencia.</p></li>
+    <li><time>1977</time><p>Funda con su esposo la imprenta Altolitho.</p></li>
+    <li class="era"><time></time><p>La vida pública</p></li>
+    <li><time>1982 – 1987</time><p>Diputada a la Asamblea Legislativa de Miranda.</p></li>
+    <li><time>22 sep 1987</time><p>Baruta declara su autonomía del Distrito Sucre.</p></li>
+    <li class="key"><time>3 dic 1989</time><p>Electa primera alcaldesa de Baruta.</p></li>
+    <li><time>4 ene 1990</time><p>Toma posesión en la Universidad Simón Bolívar.</p></li>
+    <li class="key"><time>2 may 1990</time><p>Crea la primera policía municipal del país.</p></li>
+    <li><time>27 feb 1992</time><p>Memoria y Cuenta: «me eligió para gobernar, no para complacer».</p></li>
+    <li><time>6 dic 1992</time><p>Pierde la reelección.</p></li>
+    <li><time>11 ago 1995</time><p>Gana la demanda por daño moral contra la firma auditora.</p></li>
+    <li><time>23 oct 1995</time><p>Renuncia a Copei tras 39 años de militancia.</p></li>
+    <li class="key"><time>6 dic 1998</time><p>Electa diputada al Congreso de la República.</p></li>
+    <li class="era"><time></time><p>Fortaleza</p></li>
+    <li><time>18 ene 1999</time><p>Muere su hijo Jorge Luis, a los 22 años.</p></li>
+    <li><time>3 feb 2002</time><p>Muere su esposo.</p></li>
+    <li><time>2003</time><p>Se gradúa de abogada.</p></li>
+    <li><time>2014</time><p>Comienza la diálisis.</p></li>
+    <li class="key"><time>31 mar 2021</time><p>Muere en Caracas, el Miércoles Santo.</p></li>
+  </ol>
+</section>
+
+<section id="sus-palabras" class="sec wrap">
+  <div class="sec-head">
+    <p class="label">En sus palabras</p>
+    <h2>Lo que decía</h2>
+    <div class="rule"></div>
+  </div>
+  <div class="col words">
+    <div class="word">
+      <blockquote>Ese pueblo que me llevó a la Alcaldía me eligió para gobernar, no para complacer. Se me eligió para administrar un municipio nuevo, no para disipar sus esperanzas.</blockquote>
+      <p>Memoria y Cuenta del segundo año de gestión, 27 de febrero de 1992</p>
+    </div>
+    <div class="word">
+      <blockquote>Yo aspiro a ganar por mis méritos y no por destruir a ningún contendor.</blockquote>
+      <p>Entrevista con Sofía Ímber, «Buenos días con Sofía», Venevisión, 26 de octubre de 1989</p>
+    </div>
+    <div class="word">
+      <blockquote>Es muy fácil no dejarse corromper para la muchachita que está en una esquina y que nadie la saca a bailar; pero es distinto para la buenamoza que destaca entre todos y que tiene a todo el mundo detrás.</blockquote>
+      <p>Recordado por el padre José Martínez, párroco de Santa María Madre de Dios</p>
+    </div>
+    <div class="word">
+      <blockquote>Cuando los ideales dejan de ser comunes lo mejor es separarse.</blockquote>
+      <p>Carta de renuncia a Copei, 23 de octubre de 1995</p>
+    </div>
+    <div class="word">
+      <blockquote>Los buenos somos más, pero los malos son los que más se hacen sentir. Vamos a reunir toda la gente buena para que se apoyen mutuamente.</blockquote>
+      <p>Recordado por su hija Magdalena</p>
+    </div>
+  </div>
+</section>
+
+<section id="testimonios" class="sec wrap">
+  <div class="sec-head">
+    <p class="label">Testimonios</p>
+    <h2>Cómo la recuerdan</h2>
+    <div class="rule"></div>
+  </div>
+  <div class="wide testis">
+    <figure class="testi"><blockquote>«Gloria, ¿cómo papá Dios te puede hacer esto?», le preguntó una tía en la clínica. Y ella se volteó: «Pero ¿qué estás diciendo? ¡Si a mi hijo lo disfruté veintitrés años!»</blockquote><footer><strong>Magdalena Capriles</strong>, su hija</footer></figure>
+    <figure class="testi"><blockquote>Era una mujer auténtica. Allí había coherencia entre lo que decía y lo que hacía. Eso para mí es la palabra fundamental.</blockquote><footer><strong>Padre José Martínez</strong>, párroco</footer></figure>
+    <figure class="testi"><blockquote>Siendo ella una mujer bajita y ligera, entraba a un sitio y todo el mundo la miraba.</blockquote><footer><strong>Carlos Luis Capriles</strong>, su hijo</footer></figure>
+    <figure class="testi"><blockquote>Es que había una persona enorme en ese cuerpito.</blockquote><footer><strong>Dra. Ana María Sanánez</strong>, su nefróloga</footer></figure>
+    <figure class="testi"><blockquote>Ella era capaz de estar en un partido de fútbol animando a sus hijos, para luego ir a una reunión de directores en la alcaldía esa misma tarde.</blockquote><footer><strong>Fernando Vizcaya</strong>, educador</footer></figure>
+    <figure class="testi"><blockquote>Aquí se hizo como un club donde nosotros, de esta puerta hacia adentro, éramos todos iguales, y ella fue una más de nosotros.</blockquote><footer><strong>Gustavo Ruiz</strong>, compañero de diálisis</footer></figure>
+    <figure class="testi"><blockquote>Yo no voy a supeditar mi vida a una diálisis. Lunes, miércoles y viernes me hago mi diálisis. Martes, jueves, sábado y domingo es mi vida.</blockquote><footer><strong>Beatriz Jaspe</strong>, amiga, recordando sus palabras</footer></figure>
+    <figure class="testi"><blockquote>Ver el cariño cuando ella llegaba a los barrios fue impresionante. En verdad la querían.</blockquote><footer><strong>Alessandro Sacchi</strong>, su nieto</footer></figure>
+  </div>
+</section>
+
+<section id="hemeroteca" class="sec wrap">
+  <div class="sec-head">
+    <p class="label">Hemeroteca</p>
+    <h2>Lo que se escribió</h2>
+    <div class="rule"></div>
+    <p>Recortes de prensa, publicaciones de la alcaldía y documentos, en orden cronológico. Toca una imagen para verla completa.</p>
+  </div>
+  <div class="wide">
+    <div class="press">
+      <figure class="clip"><button type="button" data-full="img/hemeroteca/1989-mujer-mujer.jpg" aria-label="Ampliar: entrevista de Tania Díaz en Mujer Mujer"><img src="img/hemeroteca/1989-mujer-mujer.jpg" loading="lazy" alt="Recorte de la entrevista de Tania Díaz a Gloria Capriles"></button><p class="when">Octubre 1989</p><p class="what">Entrevista a la candidata</p><p class="src">Mujer Mujer · Tania Díaz</p></figure>
+      <figure class="clip"><button type="button" data-full="img/hemeroteca/1989-voz-del-municipio.jpg" aria-label="Ampliar: La Voz del Municipio, diciembre de 1989"><img src="img/hemeroteca/1989-voz-del-municipio.jpg" loading="lazy" alt="Portada con el retrato de Gloria Capriles, primer alcalde de Baruta"></button><p class="when">8-15 dic 1989</p><p class="what">«Gloria Capriles, primer alcalde de Baruta»</p><p class="src">La Voz del Municipio</p></figure>
+      <figure class="clip"><button type="button" data-full="img/hemeroteca/via-municipal.jpg" aria-label="Ampliar: Vía Municipal"><img src="img/hemeroteca/via-municipal.jpg" loading="lazy" alt="Portada de Vía Municipal sobre la nueva imagen de la Policía Municipal"></button><p class="when">1990-1992</p><p class="what">Nueva imagen para la Policía Municipal</p><p class="src">Vía Municipal · Alcaldía de Baruta</p></figure>
+      <figure class="clip"><button type="button" data-full="img/hemeroteca/ultimas-noticias-policia.jpg" aria-label="Ampliar: Últimas Noticias sobre la Policía de Baruta"><img src="img/hemeroteca/ultimas-noticias-policia.jpg" loading="lazy" alt="Reportaje sobre el desempeño de la Policía Municipal de Baruta"></button><p class="when">1990-1992</p><p class="what">El desempeño de la Policía Municipal</p><p class="src">Últimas Noticias</p></figure>
+      <figure class="clip"><button type="button" data-full="img/hemeroteca/piedras-azules-agua.jpg" aria-label="Ampliar: llegada del agua a Piedras Azules"><img src="img/hemeroteca/piedras-azules-agua.jpg" loading="lazy" alt="Recorte: después de 25 años, el barrio Piedras Azules recibe el agua"></button><p class="when">1990-1992</p><p class="what">«Después de 25 años, barrio Piedras Azules se convirtió en paraíso con la llegada del agua»</p><p class="src">Prensa local</p></figure>
+      <figure class="clip"><button type="button" data-full="img/hemeroteca/nueva-imagen-baruta.jpg" aria-label="Ampliar: Creamos una nueva imagen para Baruta"><img src="img/hemeroteca/nueva-imagen-baruta.jpg" loading="lazy" alt="Aviso de la alcaldía con los logros de la gestión"></button><p class="when">1990-1992</p><p class="what">«Creamos una nueva imagen para Baruta»</p><p class="src">Aviso de la Alcaldía de Baruta</p></figure>
+      <figure class="clip"><button type="button" data-full="img/hemeroteca/1992-exceso.jpg" aria-label="Ampliar: Exceso, julio de 1992"><img src="img/hemeroteca/1992-exceso.jpg" loading="lazy" alt="Página de la revista Exceso: Gloria de Capriles, un blanco"></button><p class="when">Julio 1992</p><p class="what">«Gloria de Capriles: un blanco». Una mirada crítica en plena gestión.</p><p class="src">Exceso, p. 92</p></figure>
+      <figure class="clip"><button type="button" data-full="img/hemeroteca/1992-la-prensa-portada.jpg" aria-label="Ampliar: portada de La Prensa, noviembre de 1992"><img src="img/hemeroteca/1992-la-prensa-portada.jpg" loading="lazy" alt="Portada de La Prensa con Gloria Capriles"></button><p class="when">13-19 nov 1992</p><p class="what">Portada en campaña por la reelección</p><p class="src">La Prensa</p></figure>
+      <figure class="clip"><button type="button" data-full="img/hemeroteca/1992-la-prensa-recorte.jpg" aria-label="Ampliar: recorte de La Prensa, noviembre de 1992"><img src="img/hemeroteca/1992-la-prensa-recorte.jpg" loading="lazy" alt="Recorte interior de La Prensa"></button><p class="when">13-19 nov 1992</p><p class="what">«Creo en la Policía Municipal de Baruta»</p><p class="src">La Prensa</p></figure>
+      <figure class="clip"><button type="button" data-full="img/hemeroteca/1993-periodico-municipal.jpg" aria-label="Ampliar: El Periódico Municipal, enero de 1993"><img src="img/hemeroteca/1993-periodico-municipal.jpg" loading="lazy" alt="Portada de El Periódico Municipal: se fracturó pacto adeco-copeyano"></button><p class="when">14-21 ene 1993</p><p class="what">«Se fracturó pacto adeco-copeyano en concejo de Baruta»</p><p class="src">El Periódico Municipal</p></figure>
+      <figure class="clip"><button type="button" data-full="img/hemeroteca/1999-congreso-duelo.jpg" aria-label="Ampliar: duelo del Congreso por Jorge Luis Capriles"><img src="img/hemeroteca/1999-congreso-duelo.jpg" loading="lazy" alt="Aviso de duelo de la Cámara de Diputados por Jorge Luis Capriles Lizarraga"></button><p class="when">20 ene 1999</p><p class="what">El Congreso acompaña a la diputada en la muerte de su hijo</p><p class="src">Cámara de Diputados</p></figure>
+      <figure class="clip"><button type="button" data-full="img/hemeroteca/2021-alcaldia-baruta.jpg" aria-label="Ampliar: duelo de la Alcaldía de Baruta, 2021"><img src="img/hemeroteca/2021-alcaldia-baruta.jpg" loading="lazy" alt="Mensaje de duelo de la Alcaldía de Baruta"></button><p class="when">31 mar 2021</p><p class="what">«Paz a su alma»</p><p class="src">Alcaldía de Baruta</p></figure>
+    </div>
+
+    <div class="links col">
+      <h3>En la prensa digital</h3>
+      <ul>
+        <li><span>31 mar 2021</span><a href="https://eldiario.com/2021/03/31/el-legado-de-gloria-lizarraga-de-capriles-la-madre-del-municipio-baruta/" rel="noopener" target="_blank">El legado de Gloria Lizárraga de Capriles, la madre del municipio Baruta · El Diario</a></li>
+        <li><span>31 mar 2021</span><a href="https://noticiasvenevision.com/noticias/nacional/fallecio-la-primera-alcaldesa-de-baruta-gloria-lizarraga-de-capriles" rel="noopener" target="_blank">Falleció la primera alcaldesa de Baruta · Noticiero Venevisión</a></li>
+        <li><span>Junio 2021</span><p><em>Democratización</em> n.º 14, número dedicado a su memoria · Instituto FORMA</p></li>
+        <li><span>26 oct 1989</span><p>Entrevista en «Buenos días con Sofía» · Sala Virtual Sofía Ímber y Carlos Rangel, UCAB</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div class="closing wrap">
+  <p class="big">«Mi compromiso es con la gente que me necesite más.»</p>
+  <p class="small">Gloria Lizarraga de Capriles, 1989</p>
+</div>
+
+<footer class="foot wrap">
+  <div class="wide">
+    <span>Sitio de la familia Capriles Lizarraga</span>
+    <span>gloriacapriles.com</span>
+  </div>
+</footer>
+
+<dialog id="viewer" aria-label="Recorte ampliado">
+  <button type="button" id="viewer-close" aria-label="Cerrar">×</button>
+  <img id="viewer-img" alt="">
+  <p id="viewer-cap"></p>
+</dialog>
+
+<script>
+(function(){
+  var d=document.getElementById('viewer'),img=document.getElementById('viewer-img'),cap=document.getElementById('viewer-cap');
+  document.querySelectorAll('.clip button').forEach(function(b){
+    b.addEventListener('click',function(){
+      var fig=b.closest('.clip');
+      img.src=b.getAttribute('data-full');
+      img.alt=b.querySelector('img').alt;
+      cap.textContent=fig.querySelector('.when').textContent+' · '+fig.querySelector('.src').textContent;
+      if(d.showModal)d.showModal();
+    });
+  });
+  document.getElementById('viewer-close').addEventListener('click',function(){d.close()});
+  d.addEventListener('click',function(e){if(e.target===d)d.close()});
+})();
+</script>
+</body>
+</html>
